@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Web-Technology</title>
-    <!-- <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script> -->
+    <title>BlodReader</title>
+<link href="./style.css" rel="stylesheet">
 </head>
-<body style="background-color: darkcyan;">
+<body>
 
-    <div style="background-color: black;">
-        <img src="img/banner.png">     
+<div class="header">
+  <h1>BLOG<span style="color:#aaa;">READER</span></h1>
+  <p>Write your Blogs to connect the world.</p>
+</div>
+
+<div class="topnav">
+  <a class="active" href="#">Blogs</a>
+  <a href="#">Add blogs</a>
+  <a href="#">Favorites</a>
+  <a href="#">About</a>
+
+ 
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h2>HTML and CSS</h2>
+      <h5>shubham, Oct 24, 2020</h5>
+      <div class="fakeimg" >
+        <img src="img/img3.jpg">
     </div>
-
-    <div style="background-color: white;margin: 20px auto;">
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>HTML and CSS</h2>
+      <h5>Josh, Oct 26, 2020</h5>
+      <div class="fakeimg" >
+        <img src="img/img2.jpg">
+    </div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card form">
         <form>
-            <h1>Do fill the form</h1>
-            <label>First name</label><input type="text"><br>
-            <label>Last name</label><input type="text"><br>
-            <label>email</label><input type="email"><br>
-            <label>upload the resume</label><br>
-            <input type="file"><br>
-            <label>Want to participate for event</label><br>
-            <label>yes</label><input type="radio" name="event">
-            <label>no</label><input type="radio" name="event"><br>
-            <label>what you know about HTML</label><br>
-            <textarea></textarea>
-            <br>
-            <label>which is better</label><br>
-            <input type="checkbox">HTML<br>
-            <input type="checkbox">CSS<br>
-            <input type="submit" value="Submit">
-            <input type="reset" value="reset">
-        </form>
+            <h2>Add the blog</h2>
+            <input class="field" type="text" placeholder="Name"><br>
+            <textarea placeholder="Write something..."></textarea><br>
+            <input class="button submit" type="submit" value="Post">
+            <input class="button reset" type="reset" value="Cancle">
+        </button>
     </div>
+  </div>
 
+</div>
 
-    
+<div class="footer">
+  <p>made by shubham lotliker</p>
+</div>
+
 </body>
 </html>

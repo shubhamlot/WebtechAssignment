@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background:#162230;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: #162230;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+    color: #fc4078;
+  }
+  .header p{
+      color: #e8ffe8;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #e8ffe8;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .topnav a.active{
+    border-bottom:5px solid #fc4078;
+  } 
+
+  .column {   
+    margin: 0 auto;
+    width: 75%;
+  }
+  
+
+  /* Fake image */
+  .fakeimg {
+    
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  img{
+      margin: 0px auto;
+      width: 80%;
+      height: 80%;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: #677686;
+    padding: 20px;
+    margin: 20px auto;
+    border-left: 5px solid #fc4078;
+
+  }
+  
+
+
+  .form{
+      background-color: #fc4078;
+      
+  }
+
+  .field{
+      width: 25%;
+      padding:9px;
+      border-style: none;
+      border-radius: 3px;
+
+  }
+
+  textarea{
+      margin-top: 10px;
+      width: 100%;
+      height: 150px;
+      border:none;
+      border-radius: 3px;
+      resize: none;
+      overflow-y: scroll;
+      padding: 15px 9px;
+  }
+
+  .button{
+      
+      margin-top: 10px;
+      border: none;
+      width: 10%;
+      padding: 10px;
+      border-radius: 40px;
+      font-size: 20px;
+      cursor: pointer;
+  }
+
+  .button:focus{
+      outline: none;
+  }
+
+  .submit{
+      background-color: #162230;
+      color: #ffffff;
+      font-weight: bold;
+  }
+  .reset{
+
+    background-color: #fc4078;
+    color: #ffffff;
+    font-weight: bold;
+
+  }
+  .footer {
+    padding: 20px;
+    
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+
+
