@@ -73,6 +73,13 @@
     border-left: 5px solid #fc4078;
 
   }
+
+  .card h2, p{
+    color: #ffffff;
+  }
+  .card h5{
+    color: #aaa;
+  }
   
 
 
@@ -83,6 +90,7 @@
 
   .field{
       width: 25%;
+      margin-top: 10px;
       padding:9px;
       border-style: none;
       border-radius: 3px;
